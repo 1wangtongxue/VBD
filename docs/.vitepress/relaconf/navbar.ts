@@ -22,6 +22,10 @@ export const nav:DefaultTheme.NavItem[]=[
             text: '学习uniapp',
             link: '/views/column/uniapp/studayUniapp.md' // 表示docs/views/Travel/index.md
           },
+            {
+                text: '创建自己的博客',
+                link: '/views/column/vitepress/studayVitepress.md' // 表示docs/views/vitepress/index.md
+            },
           {
             text: '二次封装表单',
             link: '/views/column/tryFrom.md' // 表示docs/views/Travel/index.md
