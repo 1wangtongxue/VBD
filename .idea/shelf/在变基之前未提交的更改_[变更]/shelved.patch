@@ -1,0 +1,19 @@
+Index: docs/.vitepress/config.mts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import { defineConfig } from 'vitepress'\nimport { nav, sidebar } from './relaconf'\n\n// https://vitepress.dev/reference/site-config\nexport default defineConfig({\n  base: \".\",\n  title: \"my-boke-demo\",\n  description: \"A VitePress Site\",\n  themeConfig: {\n    // https://vitepress.dev/reference/default-theme-config\n    logo:'/docs/public/head.jpg',\n    nav: nav,\n\n    sidebar:sidebar , //侧边栏\n    outline:{  //右边侧边栏的跳转目录\n      level: [1, 60],\n      label: '目录'\n    },\n    i18nRouting: true,\n    socialLinks: [\n      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }\n    ]\n  }\n})\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/docs/.vitepress/config.mts b/docs/.vitepress/config.mts
+--- a/docs/.vitepress/config.mts	(revision 556716d3f5877f3298dd35a5bb3265ac6e0a5d50)
++++ b/docs/.vitepress/config.mts	(date 1709693037506)
+@@ -3,7 +3,7 @@
+ 
+ // https://vitepress.dev/reference/site-config
+ export default defineConfig({
+-  base: ".",
++  base: "",
+   title: "my-boke-demo",
+   description: "A VitePress Site",
+   themeConfig: {

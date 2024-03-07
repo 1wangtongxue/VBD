@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e6d1f65-04d7-43e6-bc92-45b8a97f413b" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/views/column/vitepress/studayVitepress.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/column/vitepress/studayVitepress.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2dGFZpnE3XHTCulSJ1icwaLFnY4" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/code/DemoSelf/boke/vitepressBokeDemo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "D:\\soft\\webstorm\\WebStorm 2022.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\DemoSelf\boke\vitepressBokeDemo\docs\views\column\test" />
+      <recent name="D:\code\DemoSelf\boke\vitepressBokeDemo\vitepress-starter" />
+      <recent name="D:\code\DemoSelf\boke\vitepressBokeDemo" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="8e6d1f65-04d7-43e6-bc92-45b8a97f413b" name="变更" comment="" />
+      <created>1709626566975</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709626566975</updated>
+      <workItem from="1709626568256" duration="2739000" />
+      <workItem from="1709629823598" duration="2457000" />
+      <workItem from="1709633176070" duration="21000" />
+      <workItem from="1709686982856" duration="629000" />
+      <workItem from="1709688329510" duration="9790000" />
+      <workItem from="1709703887533" duration="6521000" />
+      <workItem from="1709712957159" duration="6584000" />
+      <workItem from="1709773338207" duration="17388000" />
+      <workItem from="1709802298920" duration="39000" />
+      <workItem from="1709802339395" duration="97000" />
+      <workItem from="1709802443221" duration="367000" />
+    </task>
+    <task id="LOCAL-00001" summary="修改路由">
+      <created>1709626704682</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709626704682</updated>
+    </task>
+    <task id="LOCAL-00002" summary="去除默认地址">
+      <created>1709628352276</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709628352276</updated>
+    </task>
+    <task id="LOCAL-00003" summary="vitepress文档提交">
+      <created>1709801992220</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709801992220</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改路由" />
+    <MESSAGE value="去除默认地址" />
+    <MESSAGE value="vitepress文档提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="vitepress文档提交" />
+  </component>
+</project>

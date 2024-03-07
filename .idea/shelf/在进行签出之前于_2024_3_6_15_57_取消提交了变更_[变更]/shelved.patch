@@ -1,0 +1,36 @@
+Index: vitepress-starter/deploy.sh
+===================================================================
+diff --git a/vitepress-starter/deploy.sh b/vitepress-starter/deploy.sh
+--- a/vitepress-starter/deploy.sh	
++++ b/vitepress-starter/deploy.sh	
+@@ -7,13 +7,12 @@
+ npm run docs:build
+ 
+ # 进入生成的文件夹
+-cd docs/.vitepress/dist
++cd ../docs/.vitepress/dist
+ 
+-git init
+ git add -A
+ git commit -m 'deploy'
+ 
+ # 意思为将master构建后的代码合并到master分支上，然后在master分支上部署~
+-git push -f git@github.com:1wangtongxue/VBD.git master:master
++git push -f git@github.com:1wangtongxue/VBD.git master:gh-pages
+ 
+ cd -
+Index: README.md
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	
++++ b/README.md	
+@@ -1,3 +1,9 @@
+ test
+ vitepressDemo
+ 远程地址不是那个仓库  是vbd 1
++key不对 公钥和私钥没有对上
++那这个怎么
++
++需要重新生成key
++这个key不对
++我先上个厕所 有点忍不住了 微信回话表示知道了1微信huihu
