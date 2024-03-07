@@ -28,3 +28,7 @@ features:
 ---
 
 
+<script setup>
+import homeIndex from "../docs/.vitepress/components/home.vue"
+</script>
+<homeIndex></homeIndex>

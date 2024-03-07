@@ -1,13 +1,24 @@
 <template>
     <div class="home-wrapper">
-      <div v-for="item in list" :key="item" class="home-item">{{ item }}</div>
+      <div v-for="item in list" :key="item" class="home-item" @click="changeBTN(item)">{{ item }}</div>
     </div>
   </template>
-  
-  <script lang="ts" setup>
-  const list = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+  <script >
+  export default{
+    data(){
+      return{
+        list :[1, 2, 3, 4, 5, 6, 7, 8, 9],
+      }
+    },
+    methods:{
+      changeBTN(val){
+        console.log(val,"点击的某个标识div")
+      }
+    },
+  }
   </script>
-  
+
   <style scoped>
   .home-wrapper {
     display: flex;
@@ -28,4 +39,3 @@
     transition: all 0.5s;
   }
   </style>
-  

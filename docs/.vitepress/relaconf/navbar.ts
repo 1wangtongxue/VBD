@@ -27,8 +27,8 @@ export const nav:DefaultTheme.NavItem[]=[
                 link: '/views/column/vitepress/studayVitepress.md' // 表示docs/views/vitepress/index.md
             },
           {
-            text: '二次封装表单',
-            link: '/views/column/tryFrom.md' // 表示docs/views/Travel/index.md
+            text: '二次封装表单and表格',
+            link: '/views/column/test/tryFrom.md' // 表示docs/views/Travel/index.md
           },
 
         ]

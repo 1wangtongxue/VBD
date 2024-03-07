@@ -7,13 +7,13 @@ set -e
 npm run docs:build
 
 # 进入生成的文件夹
-cd docs/.vitepress/dist
+cd ../docs/.vitepress/dist
 
 git init
 git add -A
 git commit -m 'deploy'
 
 # 意思为将master构建后的代码合并到master分支上，然后在master分支上部署~
-git push -f git@github.com:1wangtongxue/VBD.git master:master
+git push -f git@github.com:1wangtongxue/VBD.git master:gh-pages
 
 cd -
