@@ -37,12 +37,16 @@ export const nav:DefaultTheme.NavItem[]=[
 ]
 export const sidebar:DefaultTheme.Sidebar=[
         {
-            text: 'uniapp',
+            text: '学习知识',
             items: [
               {
-                // text: '学习uniapp',
+                text: '学习uniapp',
                 link: '/views/column/uniapp/studayUniapp.md' // 表示docs/views/Travel/index.md
               },
+                {
+                    text: '学习vitepress',
+                    link: '/views/column/vitepress/studayVitepress.md' // 表示docs/views/Travel/index.md
+                },
 
             ]
           },

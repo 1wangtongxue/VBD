@@ -5,11 +5,11 @@
 ## vitepress官网
 https://vitejs.cn/vitepress/
 ## 一、 博客搭建 
-##### 1.1 首先创建并进入一个项目目录
+#### 1.1 首先创建并进入一个项目目录
 ```
  mkdir vitepressBokeDemo   &&    cd vitepressBokeDemo
 ```
-##### 1.2 快速搭建
+#### 1.2 快速搭建
 使用包管理器进行初始化，这个项目使用的是pnpm
 ```
 # 如果没有安装过pnpm，可以全局安装下
@@ -39,15 +39,15 @@ pnpm add vitepress -D
 pnpm exec vitepress init
 ```
 构建图如下：
-<img src="../../../public/vitepress/evi.png">
+<img src="../../../public/vitepress/evi.png"  data-fancybox="gallery"  />
 文件的目录结构如下
 <img src="../../../public/vitepress/ml.png"><br/>
 到这里基本完成了 **<font color="#ff8f9e"> vitepress</font>** 的初始化。
 可以运行 **<font color="#ff8f9e">pnpm run docs:dev</font>** 运行项目，效果如下
-<img src="../../../public/vitepress/tu1.png"><br/>
+<img src="../../../public/vitepress/tu1.png" data-fancybox="gallery"  /><br/>
 
 ## 二、美化个人博客
-##### 2.1 首页修改
+#### 2.1 首页修改
 **(1)修改左上角的title**
 修改 **<font color="#ff8f9e">docs/.vitepress/config.mts</font>** 文件里的数据
 
@@ -100,8 +100,8 @@ export default defineConfig({
    })
 ```
 展示效果如下
-<img src="../../../public/vitepress/title-router.png"><br/>
-##### 2.2 首页home美化修改
+<img src="../../../public/vitepress/title-router.png" data-fancybox="gallery"  /><br/>
+#### 2.2 首页home美化修改
 home页也可以改成我们想要的效果
 
 **(1)美化home页**
@@ -143,7 +143,7 @@ features:
 ```
 
 好了，配置完来看下效果吧
-<img src="../../../public/vitepress/home.png"><br/>
+<img src="../../../public/vitepress/home.png" data-fancybox="gallery"  /><br/>
 **(2)自定义组件**
 如果想在home页下方增加一点图片啊图标之类的，就可以自定义组件，引入展示
 例如在 **<font color="#ff8f9e">docs/.vitepress/components/home.vue</font>**
@@ -203,9 +203,9 @@ features:
 <homeIndex></homeIndex>
 ```
 展示效果如下图所示
-<img src="../../../public/vitepress/diyhome.png"><br/>
+<img src="../../../public/vitepress/diyhome.png" data-fancybox="gallery"  /><br/>
 
-##### 2.3 侧边栏美化
+#### 2.3 侧边栏美化
 **(1)定义侧边栏**
 先在navbar.ts中创建目录专栏叫  **<font color="#ff8f9e">get和post的区别</font>** 
 ```
@@ -226,7 +226,7 @@ export const nav: DefaultTheme.NavItem[] = [
 
 ```
 定义好的效果如下
-<img src="../../../public/vitepress/sider1.png"><br/>
+<img src="../../../public/vitepress/sider1.png" data-fancybox="gallery"  /><br/>
 此时发现右边的侧边栏怎么莫名其妙的，其实这是我们初始化项目的时候，脚手架给我们预置好的侧边栏内容，对应的
 是 **<font color="#ff8f9e">docs/.vitepress/config.ts</font>** 中的
 **<font color="#ff8f9e">themeConfig.sidebar</font>**。接下来我们修改一下侧边栏的内容吧。
@@ -267,9 +267,9 @@ themeConfig: {
 })
 ```
 展示效果下图所示
-<img src="../../../public/vitepress/sidebar2.png"><br/>
+<img src="../../../public/vitepress/sidebar2.png" data-fancybox="gallery"  /><br/>
 
-##### 2.4 锚点导航
+#### 2.4 锚点导航
 锚点导航配置文件在 **<font color="#ff8f9e">config.ts</font>**  中，在
 **<font color="#ff8f9e">themeConfig</font>**  中配置
 **<font color="#ff8f9e">outline</font>** 具体代码如下
@@ -281,15 +281,15 @@ themeConfig: {
     },
 ```
 具体展示如下图所示：
-<img src="../../../public/vitepress/sidebar3.png"><br/>
+<img src="../../../public/vitepress/sidebar3.png" data-fancybox="gallery"  /><br/>
 
 ## 三、部署到github page
 到这里已经完成了一个简易的博客搭建，那么就发布上线吧。
 采用 **<font color="#ff8f9e">github</font>** 进行部署项目<br/>
-##### 3.1 设置公钥ssh 
+#### 3.1 设置公钥ssh 
 要设置公钥ssh，要本地和远程仓库相连接。在网上找了个配置
 https://blog.csdn.net/vxstar/article/details/131783270<br/>
-##### 3.2 创建仓库-本地配置
+#### 3.2 创建仓库-本地配置
 使用 **<font color="#ff8f9e">github page</font>** 来部署
 那么就有需要注意：新建仓库的时候选择 **<font color="#ff8f9e">public状态</font>。**<br/>
 假如仓库名称为： **<font color="#ff8f9e">VBD</font>** (vitepressBokeDome的缩写)
@@ -341,11 +341,7 @@ sh ./vitepress-starter/deploy.sh
 ```
 最后在仓库的 **<font color="#ff8f9e">setting——pages</font>** 中可以看到
 要在分支切换成在对应的分支，点击Save按钮，它会在上面生成对应的连接，点击连接就可以访问了
-<img src="../../../public/vitepress/vbd1.png"><br/>
-
-
-
-
+<img src="../../../public/vitepress/vbd1.png" data-fancybox="gallery"  /><br/>
 
 
 

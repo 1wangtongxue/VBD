@@ -31,8 +31,8 @@
  
 在小程序中，加载一个新的页面时，先是执行**onLoad**再执行**onShow**后执行**onReady**。<br>
 <div style="display:flex;align-items: center;">
-<img src="../../../public/LifeCycle/onLifeCycle.png" />
-<img src="../../../public/LifeCycle/logLifeCycle.png"  />
+<img src="../../../public/LifeCycle/onLifeCycle.png"  data-fancybox="gallery"  />
+<img src="../../../public/LifeCycle/logLifeCycle.png" data-fancybox="gallery" />
 </div>
 
 在执行<font color="red" >onLoad</font>函数时，页面还没有被渲染，无法进行dom操作，而且获取参数并且只请求一次的事件可以放在onLoad里，
@@ -66,7 +66,7 @@
 的标签，选择其中一个就可以使用该组件。
 
 可通过：<https://uniapp.dcloud.net.cn/component/uniui/quickstart.html> 查看uniapp官网
-<img src="../../../public/uniapp/org-uniapp.png" />
+<img src="../../../public/uniapp/org-uniapp.png" data-fancybox="gallery" />
 
 ##  四、页面样式和布局
 ###### 4.1 尺寸单位
@@ -84,19 +84,19 @@ rpx：小程序中专用的长度单位，可以根据屏幕宽度自行适应<b
  在uniapp中，可以通过以下方式进行页面跳转：
 ###### 5.1  使用navigateTo
 使用uni.navigateTo（）方法跳转页面，该方法会保留当前页面，并跳转到目标页面
-<img src=".../../../../../public/routerImg/navigateTo.png" />
+<img src=".../../../../../public/routerImg/navigateTo.png" data-fancybox="gallery" />
 
 ###### 5.2  使用redirectTo
 使用uni.redirectTo（）方法跳转页面，该方法不会保留当前页面 关闭页面，并跳转到目标页面
-<img src=".../../../../../public/routerImg/redirectTo.png" />
+<img src=".../../../../../public/routerImg/redirectTo.png" data-fancybox="gallery" />
 
 ##### 5.3  使用reLaunch
 使用uni.reLaunch（）方法跳转页面，该方法会关闭所有的页面，并跳转到目标页面
-<img src=".../../../../../public/routerImg/reLaunch.png" />
+<img src=".../../../../../public/routerImg/reLaunch.png" data-fancybox="gallery" />
 
 ##### 5.3  使用switchTab
 使用uni.switchTab（）方法跳转页面，该方法只能使用在tabbar中
-<img src=".../../../../../public/routerImg/switchTab.png" />
+<img src=".../../../../../public/routerImg/switchTab.png"  data-fancybox="gallery" />
 
 ##### 5.4 使用标签navigator跳转  uniapp的内置组件的路由与页面跳转
 是以标签的形式来跳转的，该组件类似标签  <font style="color:red">a</font> 组件，但只能跳转本地页面，目标页面必须在page.json中注册
@@ -105,7 +105,7 @@ rpx：小程序中专用的长度单位，可以根据屏幕宽度自行适应<b
 ##  六、传参
 ###### 6.1  路由传参
  路由url传参：可以通过路由拼接的方式传递参数，在跳转的页面里接收<br>
- <img src=".../../../../../public/routerImg/urlN.png" />
+ <img src=".../../../../../public/routerImg/urlN.png" data-fancybox="gallery" />
 
 ###### 6.2 父传子
  父传子：跟vue一致，通过在父组件中的子组件上绑定参数，子组件使用props接收即可<br>

@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { nav, sidebar } from './relaconf'
-
+import mdItCustomAttrs  from 'markdown-it-custom-attrs'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/VBD/",
@@ -20,5 +20,22 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
+  //配置的图片放大功能
+  markdown:{
+    config: (md) => {
+      // use more markdown-it plugins!
+      md.use(mdItCustomAttrs, 'image', {
+        'data-fancybox': "gallery"
+      })
+    }
+  },
+  //引入图片灯箱js和css文件
+  head:[
+    [
+      "link",
+      { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" },
+    ],
+    ["script", { src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js" }],
+  ]
 })
