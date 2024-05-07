@@ -31,7 +31,7 @@
  
 在小程序中，加载一个新的页面时，先是执行**onLoad**再执行**onShow**后执行**onReady**。<br>
 <div style="display:flex;align-items: center;">
-<img src="../../../public/LifeCycle/onLifeCycle.png"  data-fancybox="gallery"  />
+<img src="../../../public/LifeCycle/onLifeCycle.png"  data-fancybox="gallery"   />
 <img src="../../../public/LifeCycle/logLifeCycle.png" data-fancybox="gallery" />
 </div>
 

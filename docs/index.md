@@ -15,7 +15,7 @@ hero:
       link: /
     - theme: alt
       text: 个人成长
-      link: /views/tryIndex.md
+      link: /views/column/test/tryIndex.md
 
 features:
   - icon: 🤹 

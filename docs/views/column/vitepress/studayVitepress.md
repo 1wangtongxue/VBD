@@ -67,7 +67,6 @@ export default defineConfig({
 ```
 现在来定义下navbar的内容
 ```
-
 // docs/.vitepress/relaConf/index.ts 由于配置内容较多，单起个文件
 export * from './navbar';
 
@@ -191,10 +190,7 @@ features:
     transition: all 0.5s;
   }
   </style>
-
-
 ```
-
 接着，在  **<font color="#ff8f9e">docs/index.md</font>** 中引入
 ```
 <script setup>
@@ -223,7 +219,6 @@ export const nav: DefaultTheme.NavItem[] = [
       }
     ]
   }
-
 ```
 定义好的效果如下
 <img src="../../../public/vitepress/sider1.png" data-fancybox="gallery"  /><br/>
@@ -342,13 +337,4 @@ sh ./vitepress-starter/deploy.sh
 最后在仓库的 **<font color="#ff8f9e">setting——pages</font>** 中可以看到
 要在分支切换成在对应的分支，点击Save按钮，它会在上面生成对应的连接，点击连接就可以访问了
 <img src="../../../public/vitepress/vbd1.png" data-fancybox="gallery"  /><br/>
-
-
-
-
-
-
-
-
-
 

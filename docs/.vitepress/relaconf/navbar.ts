@@ -23,7 +23,11 @@ export const nav:DefaultTheme.NavItem[]=[
             link: '/views/column/uniapp/studayUniapp.md' // 表示docs/views/Travel/index.md
           },
             {
-                text: '创建自己的博客',
+                text: 'ruoyi',
+                link: '/views/column/ruoyi/studayRuoYi.md' // 表示docs/views/vitepress/index.md
+            },
+            {
+                text: 'vitepress创建自己的博客',
                 link: '/views/column/vitepress/studayVitepress.md' // 表示docs/views/vitepress/index.md
             },
           {
@@ -43,10 +47,14 @@ export const sidebar:DefaultTheme.Sidebar=[
                 text: '学习uniapp',
                 link: '/views/column/uniapp/studayUniapp.md' // 表示docs/views/Travel/index.md
               },
-                {
-                    text: '学习vitepress',
-                    link: '/views/column/vitepress/studayVitepress.md' // 表示docs/views/Travel/index.md
-                },
+              {
+                text: '学习vitepress',
+                link: '/views/column/vitepress/studayVitepress.md' // 表示docs/views/Travel/index.md
+              },
+              {
+                text: '学习ruoyi',
+                link: '/views/column/ruoyi/studayRuoYi.md' // 表示docs/views/Travel/index.md
+              },
 
             ]
           },
